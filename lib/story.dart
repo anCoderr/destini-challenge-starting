@@ -1,5 +1,11 @@
-//TODO: Step 2 - Create a new class called Story.
+class Story {
+  String storyTitle;
+  String choice1Text;
+  String choice2Text;
 
-//TODO: Step 3 - Create 3 properties for this class, A. storyTitle to store the story text. B. choice1 to store the text for choice 1, C. choice2 to store the text for choice 2.
-
-//TODO: Step 4 - Create a Constructor for this class to be able to initialise the properties created in step 3.
+  Story(String storyText, String choice1Text, String choice2Text) {
+    this.storyTitle = storyText;
+    this.choice1Text = choice1Text;
+    this.choice2Text = choice2Text;
+  }
+}
